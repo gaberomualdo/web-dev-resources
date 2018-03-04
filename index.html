@@ -5,7 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Web Dev Resources</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet">
 </head>
+
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Source Sans Pro",sans-serif;
+  background-color: #eee;
+  text-align: center;
+}
+header h1 {
+  font-size: 3rem;
+  padding: 7.5vh 0;
+  text-align: center;
+  background: linear-gradient(120deg,#283c86,#45a247);
+  color: white;
+}
+
+#container{
+  width: 380px;
+  display: inline-block;
+  text-align: left;
+}
+</style>
+
 <body>
   <header>
     <h1>Web Dev Resources</h1>
@@ -19,12 +48,7 @@
 var container = document.getElementById("container");
 
 linkData.forEach(function(item,index){
-  var linkAreaHTML;
-  if(index%2==0){
-    linkAreaHTML = "<div class='white'>";
-  }else{
-    linkAreaHTML = "<div class='gray'>";
-  }
+  var linkAreaHTML = "<div>";
   linkAreaHTML += "<h1>" + item.name + "</h1>";
   item.links.forEach(function(i,ind){
     linkAreaHTML += "<a target='_blank' href='" + i.link + "'><h2>" + i.name + "</h2><p>" + i.desc + "</p></a>";
