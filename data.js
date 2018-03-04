@@ -5,22 +5,22 @@ var linkData = [
       {
         name: "W3Schools",
         desc: "Great HTML, CSS, and JS Tutorials.",
-        link: "https://w3schools.com"
+        link: "http://w3schools.com"
       },
       {
         name: "Udemy",
         desc: "An amazing collection of paid and free online courses.",
-        link: "https://udemy.com"
+        link: "http://udemy.com"
       },
       {
         name: "Udacity Nanodegrees",
         desc: "A collection of tech-related professional online courses",
-        link: "https://udacity.com"
+        link: "http://eu.udacity.com/nanodegree"
       },
       {
         name: "Coursera",
         desc: "A collection of online courses taught by professionals.",
-        link: "https://coursera.com"
+        link: "http://coursera.com"
       }
     ]
   },
@@ -30,22 +30,22 @@ var linkData = [
       {
         name: "Visual Studio Code",
         desc: "A great fully featured, professional free text editor.",
-        link: "https://code.visualstudio.com"
+        link: "http://code.visualstudio.com"
       },
       {
         name: "Sublime Text",
         desc: "An amazing, simple, fast text editor.",
-        link: "https://sublimetext.com"
+        link: "http://sublimetext.com"
       },
       {
         name: "Atom",
         desc: "A professional text editor build by Github (using it right now).",
-        link: "https://atom.io"
+        link: "http://atom.io"
       },
       {
         name: "Brackets",
         desc: "A good, fast text editor built by Adobe.",
-        link: "https://brackets.io"
+        link: "http://brackets.io"
       }
     ]
   },
@@ -55,22 +55,22 @@ var linkData = [
       {
         name: "Pexels",
         desc: "CC0 Licensed Free Stock Images.",
-        link: "https://pexels.com"
+        link: "http://pexels.com"
       },
       {
         name: "Pixabay",
         desc: "An amazing collection of Free Stock Images and Vectors.",
-        link: "https://udemy.com"
+        link: "http://udemy.com"
       },
       {
         name: "Startup Stock Photos",
         desc: "A collection of CC0 Licensed Images",
-        link: "https://startupstockphotos.com"
+        link: "http://startupstockphotos.com"
       },
       {
         name: "Unsplash",
         desc: "Great looking free photos!",
-        link: "https://unsplash.com"
+        link: "http://unsplash.com"
       }
     ]
   },
@@ -80,22 +80,22 @@ var linkData = [
       {
         name: "Iconmonstr",
         desc: "CC0 Licensed Free SVG and PNG Icons.",
-        link: "https://iconmonstr.com"
+        link: "http://iconmonstr.com"
       },
       {
         name: "Flaticon",
         desc: "An insanely large library of icons, which mostly require attribution.",
-        link: "https://flaticon.com"
+        link: "http://flaticon.com"
       },
       {
         name: "Ionicons",
         desc: "A great icon font for any website.",
-        link: "https://ionicons.com"
+        link: "http://ionicons.com"
       },
       {
         name: "Font Awesome",
         desc: "The most widely used icon font with hundreds of great icons.",
-        link: "https://fontawesome.com"
+        link: "http://fontawesome.com"
       }
     ]
   },
@@ -105,12 +105,12 @@ var linkData = [
       {
         name: "Google Fonts",
         desc: "The most widely used free web font website.",
-        link: "https://fonts.google.com"
+        link: "http://fonts.google.com"
       },
       {
         name: "Fonts.com",
         desc: "A large variety of paid web fonts.",
-        link: "https://fonts.com"
+        link: "http://fonts.com"
       }
     ]
   }

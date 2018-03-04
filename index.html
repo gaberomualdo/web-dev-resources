@@ -17,7 +17,6 @@
 }
 body {
   font-family: "Source Sans Pro",sans-serif;
-  background-color: #eee;
   text-align: center;
 }
 header h1 {
@@ -29,9 +28,44 @@ header h1 {
 }
 
 #container{
-  width: 380px;
+  width: 425px;
   display: inline-block;
   text-align: left;
+  padding: 2.5vh 0;
+}
+
+#container div {
+  padding: 2.5vh 0;
+}
+#container div h1 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  line-height: 2;
+}
+#container div a {
+  margin: 2.5vh 0;
+  display: block;
+  color: #333;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 10px;
+  transition: box-shadow 0.25s, border 0.25s,transform 0.25s;
+  cursor: pointer;
+}
+#container div a:hover,#container div a:active{
+  transform: scale(1.05);
+  border-color: #2188ff;
+  box-shadow: 0 0 1vh rgba(33,136,255,0.5);
+}
+
+@media screen and (max-width: 450px){
+    #container {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 15px;
+    }
 }
 </style>
 
