@@ -4,7 +4,7 @@ var linkData = [
     links: [
       {
         name: "W3Schools",
-        desc: "Great HTML, CSS, and JS Tutorials."
+        desc: "Great HTML, CSS, and JS Tutorials.",
         link: "https://w3schools.com"
       },
       {
@@ -29,7 +29,7 @@ var linkData = [
     links: [
       {
         name: "Visual Studio Code",
-        desc: "A great fully featured, professional free text editor."
+        desc: "A great fully featured, professional free text editor.",
         link: "https://code.visualstudio.com"
       },
       {
@@ -54,7 +54,7 @@ var linkData = [
     links: [
       {
         name: "Pexels",
-        desc: "CC0 Licensed Free Stock Images."
+        desc: "CC0 Licensed Free Stock Images.",
         link: "https://pexels.com"
       },
       {
@@ -79,7 +79,7 @@ var linkData = [
     links: [
       {
         name: "Iconmonstr",
-        desc: "CC0 Licensed Free SVG and PNG Icons."
+        desc: "CC0 Licensed Free SVG and PNG Icons.",
         link: "https://iconmonstr.com"
       },
       {
@@ -104,7 +104,7 @@ var linkData = [
     links: [
       {
         name: "Google Fonts",
-        desc: "The most widely used free web font website."
+        desc: "The most widely used free web font website.",
         link: "https://fonts.google.com"
       },
       {

@@ -16,6 +16,21 @@
 </body>
 <script src='data.js'></script>
 <script>
-var containerHTML = document.getElementById("container").innerHTML;
+var container = document.getElementById("container");
+
+linkData.forEach(function(item,index){
+  var linkAreaHTML;
+  if(index%2==0){
+    linkAreaHTML = "<div class='white'>";
+  }else{
+    linkAreaHTML = "<div class='gray'>";
+  }
+  linkAreaHTML += "<h1>" + item.name + "</h1>";
+  item.links.forEach(function(i,ind){
+    linkAreaHTML += "<a target='_blank' href='" + i.link + "'><h2>" + i.name + "</h2><p>" + i.desc + "</p></a>";
+  });
+  linkAreaHTML += "</div>";
+  container.innerHTML += linkAreaHTML;
+});
 </script>
 </html>
