@@ -88,6 +88,11 @@ var linkData = [
         link: "http://flaticon.com"
       },
       {
+        name: "The Iconic Font",
+        desc: "An icon font built by the creators of Iconmonstr.",
+        link: "http://iconmonstr.com/iconicfont"
+      },
+      {
         name: "Ionicons",
         desc: "A great icon font for any website.",
         link: "http://ionicons.com"
